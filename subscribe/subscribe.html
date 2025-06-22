@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subscribe Now</title>
+  <link rel="stylesheet" href="subscribe.css">
+</head>
+<body>
+  <div class="subscribe-container">
+    <div class="subscribe-box">
+      <h1>Subscribe to Our Streaming Platform</h1>
+      <p>Get access to exclusive content and video courses!</p>
+      <form id="subscribeForm">
+        <input type="text" placeholder="Your Name" id="name" required>
+        <input type="email" placeholder="Your Email" id="email" required>
+        <label class="consent">
+          <input type="checkbox" id="consent" required>
+          I confirm I am over 18 and agree to receive updates.
+        </label>
+        <button type="submit">Subscribe Now</button>
+      </form>
+      <div id="message"></div>
+    </div>
+  </div>
+
+  <script src="subscribe.js"></script>
+</body>
+</html>

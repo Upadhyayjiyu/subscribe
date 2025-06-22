@@ -1,0 +1,87 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1601597111047-fd5f8e1f9865');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+
+.subscribe-box {
+  background: #ffffffdd;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.subscribe-box h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subscribe-box p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.subscribe-box input[type="text"],
+.subscribe-box input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.consent {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.subscribe-box button {
+  padding: 12px 20px;
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 100%;
+}
+
+.subscribe-box button:hover {
+  background-color: #1e5cb3;
+}
+
+#message {
+  margin-top: 15px;
+  font-size: 14px;
+  color: green;
+}
+
+@media (max-width: 480px) {
+  .subscribe-box {
+    padding: 20px;
+  }
+
+  .subscribe-box h1 {
+    font-size: 20px;
+  }
+}
